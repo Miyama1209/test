@@ -38,3 +38,15 @@ a <- 1:10
 a[4]
 a[c(4,6)]
 a[c(4:6)]
+
+my_list <- list(a = "Hello?", b = c(1,2,3), c = data.frame(x = 1:5, y=6:10))
+my_list
+my_list[[1]][1]
+my_list[[3]]$x[2]
+my_list$a
+lm(df$y ~ df$x)
+
+
+a <- "Hello"
+b <- "World"
+rm(a,b)
